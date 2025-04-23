@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="icon" href="MURSATAS GRUP.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Projects Hub</h1>
+            <p>A collection of all my web projects</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Search projects...">
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </section>
+
+        <section class="projects-grid">
+            <!-- Kopi Sangah Asli Barokah -->
+            <div class="project-card" data-categories="business coffee">
+                <div class="card-image">
+                    <img src="logo kopi.png" alt="Kopi Sangah Asli Barokah" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3>Kopi Sangah Asli Barokah</h3>
+                    <p>Coffee business website showcasing products and services.</p>
+                    <a href="https://193tb4l3.github.io/web-kopi/" target="_blank" class="visit-btn">Visit Website</a>
+                </div>
+            </div>
+
+            <!-- Mursatas Grup -->
+            <div class="project-card" data-categories="business construction">
+                <div class="card-image">
+                    <img src="mursatas it.png" alt="Mursatas It" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3>Mursatas It</h3>
+                    <p>Company profile for construction and business services.</p>
+                    <a href="https://193tb4l3.github.io/Mursatas-It/" target="_blank" class="visit-btn">Visit Website</a>
+                </div>
+            </div>
+
+            <!-- MatchHelper -->
+            <div class="project-card" data-categories="sports utility">
+                <div class="card-image">
+                    <img src="mt.png" alt="MatchHelper" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3>MatchHelper</h3>
+                    <p>Sports match tracking and analysis tool.</p>
+                    <a href="https://193tb4l3.github.io/MatchHelper/" target="_blank" class="visit-btn">Visit Website</a>
+                </div>
+            </div>
+
+            <!-- TechStudent -->
+            <div class="project-card" data-categories="education technology">
+                <div class="card-image">
+                    <img src="ts.png" alt="TechStudent" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3>TechStudent</h3>
+                    <p>Educational resources for technology students.</p>
+                    <a href="https://193tb4l3.github.io/TechStudent/index.html" target="_blank" class="visit-btn">Visit Website</a>
+                </div>
+            </div>
+
+            <!-- My Chicken Calculator -->
+            <div class="project-card" data-categories="agriculture calculator">
+                <div class="card-image">
+                    <img src="mcc.png" alt="My Chicken Calculator" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3>My Chicken Calculator</h3>
+                    <p>Tool for poultry farmers to calculate feed and costs.</p>
+                    <a href="https://193tb4l3.github.io/my-chicken/index.html" target="_blank" class="visit-btn">Visit Website</a>
+                </div>
+            </div>
+
+            <!-- Namza Music -->
+            <div class="project-card" data-categories="music entertainment">
+                <div class="card-image">
+                    <img src="namza music.png" alt="Namza Music" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3>Namza Music</h3>
+                    <p>Music platform showcasing original compositions.</p>
+                    <a href="https://193tb4l3.github.io/Namza-Music/index.html" target="_blank" class="visit-btn">Visit Website</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> My Projects Hub. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+        <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
